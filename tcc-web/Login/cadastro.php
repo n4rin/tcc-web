@@ -145,7 +145,7 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
             display: block;
             margin: 20px auto;
             text-align: center;
-            border: 2px solid #3498db;
+            border: 2px solid rgb(158, 158, 158);
             padding: 14px 10px;
             width: 200px;
             outline: none;
@@ -243,7 +243,7 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
 </head>
 <body>
 <header class="header">
-        <a href="../Pagina/index.php" class="logo"><img src="../Pagina/logo.PNG" alt=""></a>
+        <a href="../Pagina/index.php" class="logo"><img src="../imagem/logo.PNG" alt=""></a>
 
         <nav class="navbar2">
             <a href="<?php echo isset($_SESSION['email']) ? 'perfil.php' : '#'; ?>" class="btn-user"><i class='bx bxs-user-circle'></i></a>

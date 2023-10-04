@@ -212,14 +212,14 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
     <section>
         <div class="blocos">
             <div class="bloco-a">
-                <h3>Utensilios</h3>
+               <a href="#"><h3>Utensílios</h3></a> 
             </div>
             <div class="blocos2">
-                            <div class="bloco-b">
-                <h3>Saúde</h3>
+            <div class="bloco-b">
+              <a href="#"><h3>Saúde</h3></a>  
             </div>
             <div class="bloco-c">
-                <h3>Receitas</h3>
+               <a href="#"><h3>Receitas</h3></a> 
             </div>
             </div>
 

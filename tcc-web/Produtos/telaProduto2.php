@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="icon" type="image/x-icon" href="../Pagina/logo.png">
+    <link rel="icon" type="image/x-icon" href="../imagem/logo.PNG">
     <link rel="stylesheet" href="produto.css">
     <link rel="stylesheet" href="../Pagina/style.css">
     <title>LivaTy - Chá Verde Leão</title>
@@ -18,7 +18,7 @@
 <body style="background-color: #f7f3f2; color: #27211E;">
     <!--Inicio NavBar-->
     <header class="header">
-        <a href="../Pagina/index.php" class="logo"><img src="../Pagina/logo.PNG" alt=""></a>
+        <a href="../Pagina/index.php" class="logo"><img src="../imagem/logo.PNG" alt=""></a>
         <nav class="navbar">
             <a href="../Pagina/cafes.php">Cafés</a>
             <a href="../Pagina/chas.php">Chás</a>
@@ -63,7 +63,7 @@
             </script>
 
     </header>
-
+    <br>
     <div style="height: 90px;"></div>
     <div id="achubaba" class="container border border-secondary-subtle row"
         style="  display: flex; width: 980px; height: 722px; margin: auto; border-radius: 20px;"><br>
@@ -168,54 +168,53 @@
 
     </div><br>
 
-    <footer class="bg-dark text-center text-white">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="bi bi-facebook"></i></a>
+    <!--Footer-->
+    <footer>
+        <div id="footer-content">
+            <div id="footer-contacts">
+                <h2>LIVATY</h2>
+                <p>Nos siga nas redes sociais</p>
 
-                <!-- Instagram -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="bi bi-instagram"></i></a>
+                <div id="footer-social-media">
+                    <a href="#" class="footer-link" id="instagram"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="footer-link" id="facebook"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="#" class="footer-link" id="whatsapp"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+            </div>
 
-                <!-- WPP -->
+            <ul class="footer-list">
+                <li>
+                    <h3>Atendimento</h3>
+                </li>
+                <li><a href="#" class="footer-link">Formas de Pagamento</a></li>
+                <li><a href="#" class="footer-link">Catálogo</a></li>
+                <li><a href="#" class="footer-link">Institucional</a></li>
+            </ul>
 
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-whatsapp"></i>
-                </a>
+            <ul class="footer-list">
+                <li>
+                    <h3>Produtos</h3>
+                </li>
+                <li><a href="#" class="footer-link">Cafés</a></li>
+                <li><a href="#" class="footer-link">Chás</a></li>
+                <li><a href="#" class="footer-link">Incensos</a></li>
+            </ul>
 
-                <!-- Linkedin -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-linkedin"></i>
-                </a>
-
-            </section>
-            <!-- Section: Social media -->
+            <div id="footer-map">
+                <h3>Nossa sede:</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.4530145073554!2d-47.42621522712088!3d-22.562154025640524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8806c2c324933%3A0xe2108428886c8646!2sCol%C3%A9gio%20T%C3%A9cnico%20de%20Limeira%20-%20Unicamp!5e0!3m2!1spt-BR!2sbr!4v1696366241972!5m2!1spt-BR!2sbr"
+                    width="300" height="200" style="border-radius:15px;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
-        <!-- Grid container -->
+            <div id="footer-copyright">
+                &#169
+                2023 all rights reserved
+            </div>
 
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2023 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">Livaty.com</a>
-        </div>
-        <!-- Copyright -->
     </footer>
-
-    <!--Script-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+    
     <script src="../Pagina/styles.js"></script>
     <script src="../Pagina/carrinho.js"></script>
 </body>

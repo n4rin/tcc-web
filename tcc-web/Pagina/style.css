@@ -212,6 +212,7 @@
   .lembrar-senha label input {
     accent-color: white;
     margin-right: 10px;
+    color:  rgb(158, 158, 158);
   }
 
   .lembrar-senha a {
@@ -472,6 +473,10 @@ footer{
   padding-top: 40px;
 }
 
+.blocos a{
+  text-decoration: none;
+}
+
 .blocos h3{
   color: rgb(255, 255, 255);
   font-size: 100px;
@@ -499,8 +504,8 @@ footer{
 
 .bloco-a{
   background: url('https://cdn.tudosobrecafe.com/articles/137/images/16373371451427469635.png');
-  width: 80%;
-  height: 400px;
+  width: 75%;
+  height: 300px;
   flex-direction: column;
   background-size: cover;
   background-position: center;
@@ -511,7 +516,7 @@ footer{
 
 .bloco-b{
   background: url('https://www.dicasdemulher.com.br/wp-content/uploads/2018/01/chas-para-dormir-01.png');
-  width: 40%;
+  width: 35%;
   height: 300px;
   background-size: cover;
   background-position: center;
