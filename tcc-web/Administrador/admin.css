@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap');
+
+* {
+  font-family: "REM", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+}
+
+:root{
+    --blue: #2980b9;
+    --red: tomato;
+    --orange: orange;
+    --green: rgb(6, 51, 6);
+    --black:#333;
+    --white: #fff;
+    --bg-color: #eee;
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    --border: .1rem solid #999;
+}
+
+html{
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+.container-adm{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 2rem;
+}
+
+.btn-addP,
+.option-btn-addP,
+.delete-btn-addP{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 1.7rem;
+    padding: 1.2rem 3rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btn-addP:hover,
+.option-btn-addP:hover,
+.delete-btn-addP:hover{
+    background-color: var(--black);
+}
+
+.option-btn-addP{
+    background-color: var(--orange);
+}
+
+.delete-btn-addP{
+    margin-top: 0;
+    background-color: var(--red);
+}
+
+.add-produtos-form{
+    max-width: 50rem;
+    background-color: var(--bg-color);
+    border-radius: .5rem;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.add-produtos-form h3{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--black);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.add-produtos-form .box-addP{
+    text-transform: none;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.7rem;
+    color: var(--black);
+    border-radius: .5rem;
+    background-color: var(--white);
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.header{
+    background-color: var(--green);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header .flex{
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header .flex .logo{
+    margin-right: auto;
+    font-size: 1.5rem;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.header .flex .navbar a{
+    margin-left: 2rem;
+    font-size: 1rem;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.header .flex .navbar a:hover{
+    color: var(--blue);
+}
+
+.header .flex .carrinho{
+    margin-left: 2rem;
+    font-size: 1rem;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.header .flex .carrinho:hover{
+    color: var(--blue);
+}
+
+.header .flex .carrinho span{
+    padding: .3rem .5rem;
+    border-radius: .5rem;
+    background-color: var(--white);
+    color: var(--blue);
+    font-size: 0.9rem;
+}
